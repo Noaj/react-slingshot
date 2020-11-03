@@ -19,7 +19,7 @@ jobs:
             - /src/node_modules
       - run:
           name: Run npm lint   
-          command: npm lint
+          command: npm run lint
 
       - run:
           name: If this job fails, rollback
